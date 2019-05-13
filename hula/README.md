@@ -1,4 +1,4 @@
-# hula-0.0.0.0
+# hula-0.0.0.2
 
 ## What is hula?
 
@@ -57,3 +57,16 @@ Finds the lowest distance to each action's state minus the score of that action.
 removes perc percent of state-actions from the state-action tree
 
 ----
+
+    >>> from hula import CNET
+    >>> DemoNet = CNET([2, 2, 1])
+    >>> DemoNet.activate([0, 1])
+    [0.7253581692619533]
+    >>> DemoNet.act(0.05)
+    >>> DemoNet.score(1)
+    >>> DemoNet.train(0.65)
+    >>> DemoNet.activate([0, 1])
+    [0.752814108057084]
+
+
+This list is not complete. There are many more modules, classes, and methods to cover.
