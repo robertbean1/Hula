@@ -1,3 +1,7 @@
+# hula-0.0.0.0
+
+### What is hula?
+
 Hula is a set of unconventional machine learning modules. Hula is designed to unify the desired aspects of most machine learning capabilities out there. 
 
 Within hula are a few machine learning algorithms which I've coined as the following:
@@ -13,3 +17,7 @@ Respectively, the modules are named:
 - ComprehensiveNet
 
 I will be working on a blog to explain the workings behind each algorithm.
+
+### Documentation
+
+Whoops! Looks like I've written nothing here. Hopefully I will later ;)
